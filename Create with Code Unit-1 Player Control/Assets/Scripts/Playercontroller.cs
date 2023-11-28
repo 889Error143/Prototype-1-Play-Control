@@ -6,12 +6,12 @@ using UnityEngine.UIElements;
 public class Playercontroller : MonoBehaviour
 {
 
+
+    private float _verticalInput;
     public float Speed = 5f;
     public float RotationSpeed = 45f;
 
     private float _horizontalInput;
-    private float _verticalInput;
-
     // Start is called before the first frame update
     void Start()
     {
